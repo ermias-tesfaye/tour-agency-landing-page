@@ -1,7 +1,20 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const year = new Date();
-    document.querySelector('#year').textContent = year.getFullYear();
+import Lenis from 'lenis';
 
+document.addEventListener('DOMContentLoaded', function () {
+
+  const lenis = new Lenis();
+
+  lenis.on('scroll', (e) => {
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+  const year = new Date();
+  document.querySelector('#year').textContent = year.getFullYear();
 
   const menuToggle = document.getElementById('menu-toggle');
   const closeMenu = document.getElementById('close-menu');
@@ -12,6 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   closeMenu.addEventListener('click', function () {
-    mobileMenu.style.display = 'none'
+    mobileMenu.style.display = 'none';
   });
 });

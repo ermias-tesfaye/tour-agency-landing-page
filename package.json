@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build":"vite build"
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
     "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "lenis": "^1.1.6"
   }
 }
