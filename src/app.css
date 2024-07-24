@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 40px; /* Adjusted width */
+  cursor: pointer;
+}
+
+
+
+.marquee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  color: white;
+  font-size: 36px;
+  padding: 6px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: marquee 12s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* zoom */
+.bg-hover {
+  transition: transform .5s ease-in-out;
+}
+
+.bg-hover:hover {
+transform: scale(1.03);}
+
+
+/* Mobile Sidebar Menu */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+ 
