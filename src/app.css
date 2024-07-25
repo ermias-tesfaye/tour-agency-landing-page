@@ -38,7 +38,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  
   font-weight: 700;
   color: white;
   font-size: 36px;
@@ -49,6 +49,7 @@ label {
 }
 
 .marquee-content {
+  gap: 50px;
   display: inline-flex;
   animation: marquee 12s linear infinite;
 }
