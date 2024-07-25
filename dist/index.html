@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>  -->
+    <title>Tour Agency Landing Page</title>
+    <script type="module" crossorigin src="/assets/index-CE1dkYJF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C-zgUP0Y.css">
+  </head>
+
+  <body>
+    <div
+      class="bg-hero h-[100vh] bg-center bg-cover bg-no-repeat pt-16 relative px-4 flex flex-col justify-between"
+    >
+    <!-- header -->
+      <div class="">
+        <header class="container max-w-[1250px] mx-auto">
+          <div class="flex items-center justify-between">
+            <div>
+              <img src="data:image/png;base64,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" alt="logo" />
+            </div>
+            <nav
+              class="hidden md:flex md:items-center gap-10 text-white font-secondary font-semibold"
+            >
+              <ul
+                class="flex items-center gap-10 capitalize text-[18px] font-main"
+              >
+                <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+                  <a href="#place">place</a>
+                </li>
+                <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+                  <a href="#about">About</a>
+                </li>
+                <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+                  Blog
+                </li>
+                <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+              <button
+                class="flex items-center font-extrabold px-[38px] py-[10px] rounded-full font-secondary border-2 border-white text-white duration-500 hover:bg-[#CCF32F] hover:text-black"
+              >
+                Take a Trip
+              </button>
+            </nav>
+            <label for="check" class="md:hidden">
+              <span
+                class="material-symbols-outlined text-[40px] text-white font-bold"
+                id="menu-toggle"
+              >
+                menu
+              </span>
+            </label>
+          </div>
+        </header>
+
+        <!-- Mobile Sidebar Menu -->
+        <nav
+          id="mobile-menu"
+          class="mobile-menu hidden fixed inset-0 bg-black bg-opacity-90  flex-col items-center justify-center z-50"
+        >
+          <span
+            class="material-symbols-outlined text-white text-[40px] mb-8 cursor-pointer"
+            id="close-menu"
+            >close</span
+          >
+          <ul
+            class="flex flex-col items-center gap-10 capitalize text-[18px] font-main text-white"
+          >
+            <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+              place
+            </li>
+            <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+              About
+            </li>
+            <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+              Blog
+            </li>
+            <li class="duration-200 hover:text-[#CCF32F] cursor-pointer">
+              Contact
+            </li>
+          </ul>
+          <button
+            class="flex items-center font-extrabold px-[38px] py-[10px] rounded-full font-secondary border-2 border-white text-white duration-500 hover:bg-[#CCF32F] hover:text-black mt-4"
+          >
+            Take a Trip
+          </button>
+        </nav>
+
+        <!-- hero -->
+        <section class="container max-w-[1250px] mx-auto">
+          <div class="mt-[96px]">
+            <h1
+              class="text-white font-extrabold text-5xl leading-relaxed md:text-[60px] font-main max-w-[20ch]"
+            >
+              Explore the world with exciting people
+            </h1>
+            <p class="mt-8 text-white font-secondary text-lg mb-16">
+              We help people find co travelers and also structure <br />
+              their travel plans
+            </p>
+            <button
+              class="bg-[#CCF32F] font-main flex items-center px-[38px] py-[10px] rounded-full font-bold duration-500 hover:-translate-y-4"
+            >
+              <p class=" ">Take a Trip</p>
+              
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <div
+        class="marquee container mx-auto py-8 font-main font-semibold text-whit"
+      >
+        <div class="marquee-content">
+          <p class="px-4 hover:text-[#CCF32F]">explore</p>
+          <p class="px-4 text-[#CCF32F]">adventure</p>
+          <p class="px-4 hover:text-[#CCF32F]">luxury</p>
+          <p class="px-4 text-[#CCF32F]">enjoy</p>
+          <p class="px-4 hover:text-[#CCF32F]">explore</p>
+          <p class="px-4 text-[#CCF32F]">adventure</p>
+          <p class="px-4 hover:text-[#CCF32F]">luxury</p>
+          <p class="px-4 text-[#CCF32F]">enjoy</p>
+        </div>
+      </div>
+    </div>
+
+
+    <main class="">
+
+        <!-- info -->
+
+      <section class="bg-[#1E1E1E] px-6">
+        <div
+          class="text-white grid md:grid-cols-3 justify-center gap-16 lg:gap-12 container max-w-[1250px] mx-auto py-[140px]"
+        >
+          <div class="flex flex-col gap-4">
+            <span class="material-symbols-outlined text-[60px] text-[#CCF32F]">
+              verified_user
+            </span>
+            <h2 class="font-main text-[28px] font-bold">
+              Enjoy some flexibility
+            </h2>
+            <p>
+              stays with flexible cancelation make it easy to re-book if your
+              plans change
+            </p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <span class="material-symbols-outlined text-[60px] text-[#CCF32F]">
+              travel
+            </span>
+            <h2 class="font-main text-[28px] font-bold">
+              Over 2 million active trips
+            </h2>
+            <p>
+              stays with flexible cancelation make it easy to re-book if your
+              plans change
+            </p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <span class="material-symbols-outlined text-[60px] text-[#CCF32F]">
+              instant_mix
+            </span>
+            <h2 class="font-main text-[28px] font-bold">
+              Change your destination as you want
+            </h2>
+            <p>
+              stays with flexible cancelation make it easy to re-book if your
+              plans change
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- popular destination -->
+
+      <section class="container max-w-[1250px] mx-auto py-[140px] px-6">
+        <div>
+          <h3 class="text-[20px] font-secondary">Where do you want to go</h3>
+          <h2
+            class="text-4xl mt-4 lg:text-[48px] leading-relaxed text-bold font-main font-bold" id="place"
+          >
+            Popular Destinations
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[80px]">
+          <div
+            class="bg-hover bg-lalibela rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat"
+          >
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+            ></div>
+            <div class="absolute bottom-[60px] left-[40px] z-10">
+              <p
+                class="text-[36px] font-main font-bold text-white tracking-widest"
+              >
+                Lalibela
+              </p>
+              <p class="text-[18px] font-main font-bold text-white">
+                Lalibela Rock-Hewn Churches
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-hover bg-abay rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat"
+          >
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+            ></div>
+            <div class="absolute bottom-[60px] left-[40px] z-10">
+              <p
+                class="text-[36px] font-main font-bold text-white tracking-widest"
+              >
+                Abay
+              </p>
+              <p class="text-[18px] font-main font-bold text-white">
+                Abay River
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-hover bg-afar rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat"
+          >
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+            ></div>
+            <div class="absolute bottom-[60px] left-[40px] z-10">
+              <p
+                class="text-[36px] font-main font-bold text-white tracking-widest"
+              >
+                Afar
+              </p>
+              <p class="text-[18px] font-main font-bold text-white">
+                Dallol Depression
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+
+      <section class="container max-w-[1250px] mx-auto mb-16 px-6" >
+        <div class="flex flex-wrap justify-between items-end">
+          <div class="mb-8 lg:mb-0"  id="about">
+            <h2 class="text-[20px] font-secondary">Where do you want to go</h2>
+            <h1
+              class="text-4xl mt-4 lg:text-[48px] leading-relaxed text-bold font-main font-bold max-w-[27ch]"
+            >
+              Lets us worry about your plans, Just get packed
+            </h1>
+          </div>
+          <button
+            class="bg-[#CCF32F] flex items-center px-[38px] py-[10px] rounded-full font-main font-bold duration-500 hover:shadow-2xl hover:font-bold"
+          >
+            Take a Trip
+          </button>
+        </div>
+      </section>
+
+      <!-- services -->
+
+      <section
+        class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 container max-w-[1250px] mx-auto mb-[120px] gap-12 px-6"
+      >
+        <div
+          class="shadow-2xl rounded-2xl overflow-hidden bg-hiking bg-no-repeat bg-center bg-cover bg-hover"
+        >
+        </div>
+
+        <div class="flex flex-col gap-8">
+          <div class="">
+            <span class="material-symbols-outlined text-[45px]">
+              local_taxi
+            </span>
+            <h2 class="font-semibold font-main text-[40px] text-[#0E3D4D]">
+              Rent a car
+            </h2>
+            <p class="text-lg font-secondary text-[#0E3D4D] mb-4">
+              Lorem ipsum dolor sit amet consecteur fin dren
+            </p>
+            <a
+              href=""
+              class="underline font-secondary font-semibold text-[#0E3D4D]"
+              >Lets Go
+            </a>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined text-[45px]"> bed </span>
+            <h2 class="font-semibold font-main text-[40px] text-[#0E3D4D]">
+              Get a hotel
+            </h2>
+            <p class="text-lg font-secondary text-[#0E3D4D] mb-4">
+              Lorem ipsum dolor sit amet consecteur fin dren
+            </p>
+            <a
+              href=""
+              class="underline font-secondary font-semibold text-[#0E3D4D]"
+              >Lets Go</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery -->
+
+      <section class="bg-[#F3F3F3] py-16 px-6">
+        <div class="container max-w-[1250px] mx-auto py-16">
+          <h1 class="text-center text-[20px] font-main">Trip Gallery</h1>
+          <h2
+            class="text-center text-4xl mt-4 lg:text-[48px] text-bold font-main font-bold"
+          >
+            Completed Journeys
+          </h2>
+          <section class="grid lg:grid-cols-3 gap-[36px] mt-16">
+            <div
+              class="bg-gondar rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat duration-500 hover:-translate-y-4"
+            >
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+              ></div>
+              <div class="absolute bottom-[60px] left-[40px] z-10">
+                <p
+                  class="tracking-wider text-[36px] font-main font-bold text-white"
+                >
+                  Gondar Castle
+                </p>
+                <p class="text-[18px] font-main font-bold text-white">
+                  Gondar, 14 Trips
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative bg-addis rounded-[20px] h-[400px] lg:col-span-2 bg-center bg-cover bg-no-repeat duration-500 hover:-translate-y-4"
+            >
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+              ></div>
+              <div class="absolute bottom-[60px] left-[40px] z-10">
+                <p
+                  class="tracking-wider text-[36px] font-main font-bold text-white"
+                >
+                  Addis Ababa
+                </p>
+                <p class="text-[18px] font-main font-bold text-white">
+                  Addis Ababa, 8 Trips
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-arbaminch rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat duration-500 hover:-translate-y-4"
+            >
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+              ></div>
+              <div class="absolute bottom-[60px] left-[40px] z-10">
+                <p
+                  class="tracking-wider text-[36px] font-main font-bold text-white"
+                >
+                  Arbaminch
+                </p>
+                <p class="text-[18px] font-main font-bold text-white">
+                  Arbaminch, 2 Trips
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-harar rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat duration-500 hover:-translate-y-4"
+            >
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+              ></div>
+              <div class="absolute bottom-[60px] left-[40px] z-10">
+                <p
+                  class="tracking-wider text-[36px] font-main font-bold text-white"
+                >
+                  Harar
+                </p>
+                <p class="text-[18px] font-main font-bold text-white">
+                  Harar, 6 Trips
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-aksum rounded-[20px] relative h-[400px] bg-center bg-cover bg-no-repeat duration-500 hover:-translate-y-4"
+            >
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 rounded-[20px]"
+              ></div>
+              <div class="absolute bottom-[60px] left-[40px] z-10">
+                <p
+                  class="tracking-wider text-[36px] font-main font-bold text-white"
+                >
+                  Aksum
+                </p>
+                <p class="text-[18px] font-main font-bold text-white">
+                  Aksum, 1 Trips
+                </p>
+              </div>
+            </div>
+          </section>
+          <div class="flex justify-center items-center mt-16">
+            <button
+              class="bg-[#CCF32F] flex items-center px-[38px] py-[10px] rounded-full font-main font-bold duration-500 hover:shadow-2xl hover:font-bold"
+            >
+              See all journeys
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial -->
+
+      <section class="container max-w-[1250px] mx-auto py-24 px-6">
+        <h1 class="text-center text-[20px] font-secondary">Testimonials</h1>
+        <h2
+          class="text-center text-4xl mt-4 md:text-[48px] text-bold font-main font-bold"
+        >
+          Don't take our word for it
+        </h2>
+
+        <blockquote
+          class="max-w-[70ch] mx-auto leading-relaxed text-center font-secondary mt-[3rem]"
+        >
+          "I had the most incredible vacation experience thanks to the amazing
+          team at XYZ Travel Agency! From the moment I contacted them, their
+          friendly and knowledgeable staff helped me plan the perfect itinerary.
+          They took care of every detail, from booking flights and
+          accommodations to arranging local tours and activities.”
+        </blockquote>
+
+        <div class="flex justify-center mt-[3rem]">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAfCAYAAACiY4IJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAO2SURBVHgB7ZtdctMwFIWPwgwT3roDnBXQrgDyUsrwQneQ7oAdACtgWAFhBeWFgWGGgR0AK8DsIE88FIi4urFr58dKbVmKLtY343GdH+vUx1dXuZKBRCLRP/oSR/o9ZmaPiJGi00A6H5gNkTMk70foyh28hMJrjPEUMSNEJxmZkc7P5Mhl9ME8IO8VOlCY+aM4wwK/MFHntI8MKToN+gMZCcxWB3ihHuE5ImRo3nfLIArPKiXU28XakwjRyWaWwWEg3cVr8TEw71tnkLXIrM4SXU8iRadhLXtUzNUZLhARQ/S+fQapR+a1ogh7EiE6t7JHxSy6LDJA71tlkJ2RWZ0pmp5Eik5DQ/YoiSaLDNX7dhlkV2ReK4uoJxGi05I9SuLJIgP1/kYZhMuOYxybEiQ30ny2Bf5giivkh+hNpOg08I0/ojKkxpM9H53jL16px/iGAzB079VGA0d0ctNIRi/do+2YNtNYhrYYIZpNzWn7jiXtNYlyNFqKTtZqgqDSebfQdwx0zgpG06LY/2TdSyyGck0PoZMDhGdvzSRVKDSmVOf/gpYI0mmyw1drT9Y3//81PYjO7jPpLizjnKzboqvOW4FnwhXrzCEBYd5zgHBE60DVEmqna6oVo/OUvqdonKsC3AymDcW9XY4OJO93UNM5qgmYswBfpq7GexfcjstppOg85d8HJ/Dbs+ccHKduY/vkfdnAts6tKpb+SD96NI31+hw/l72co5F1xOgsFyF2/2HeRF6Mk3P0RPJ+W6fyLsDDBSoRo7P/IOk9OEqS95tv+RTg8QKViNHZX5B4C46S5H397X0CllSu7ErHkl7rZqTodA8S78FRkrxfYS/z/oYboUp6QnTyja3chgQhgoNJ3jP2AFGOw4ERz3L6R4hOngl2GzNnwZ42TN4Xb9sbd/sndbCLJEPnuId2xumaruFZ574AuQ8XVO+lzaZ2pOh0v2lUsBsveY/9y93d0rnixWQhkKIzgzvpmq7jVWdjgBRjXVtvNadvn1CKemP5jPcxsxSdBTYzzFKKabGcIm/8VIAMkryvaM4gTWNdhbfU4MQ86WZqx1RVmZnjRhG3PadaKTpXmnZpzXl5w9mq3GiWOdDfE0ugZPBN8v4a2xAr2zjmHk49xPlmqdEcN4rwX83IIECnfseTWvWeqgyMya41So2BQufQn/jZEp9kG8eD9f4my91XjZ7tn/ipiZjy98IiRac1MDbZGShX9gneHkne23B9HjrU89RidPYwJg81D5K8TyQSiUTChX95krKGSk11zwAAAABJRU5ErkJggg==" alt="" />
+        </div>
+
+        <div
+          class="flex justify-center gap-[4rem] mt-[4rem] items-center flex-wrap"
+        >
+          <div class="flex flex-col gap-2 items-center">
+            <div class="">
+              <img
+                src="/assets/01person-CfsKRYpa.jpg"
+                alt=""
+                class="object-cover w-[100px] h-[100px] rounded-full"
+              />
+            </div>
+            <p class="font-main text-[20px] font-bold">Robel</p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-center">
+            <div class="">
+              <img
+                src="/assets/2person-C9rFP3rR.jpg"
+                alt=""
+                class="object-cover w-[100px] h-[100px] rounded-full"
+              />
+            </div>
+            <p class="font-main text-[20px] font-bold">Meron</p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-center">
+            <div class="">
+              <img
+                src="/assets/3person-C0LFozId.jpg"
+                alt=""
+                class="object-cover w-[100px] h-[100px] rounded-full"
+              />
+            </div>
+            <p class="font-main text-[20px] font-bold">Kidist</p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-center">
+            <div class="">
+              <img
+                src="/assets/04person-DUt0n7KA.jpg"
+                alt=""
+                class="object-cover w-[100px] h-[100px] rounded-full"
+              />
+            </div>
+            <p class="font-main text-[20px] font-bold">Samuel</p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-center">
+            <div class="">
+              <img
+                src="/assets/05person-CHSOdVFm.jpg"
+                alt=""
+                class="object-cover w-[100px] h-[100px] rounded-full"
+              />
+            </div>
+            <p class="font-main text-[20px] font-bold">Melorina</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- cta -->
+
+      <section class="bg-gradient-overlay bg-cover bg-no-repeat bg-center">
+        <div class="container max-w-[1250px] mx-auto py-16">
+          <h2
+            class="font-main text-[3rem] text-center font-bold text-white z-50"
+          >
+            Ready to go? <br />
+            Give us a quick call
+          </h2>
+          <div class="flex justify-center items-center mt-16">
+            <button
+              class="bg-[#CCF32F] flex items-center px-[38px] py-[10px] rounded-full font-main font-bold duration-500 hover:shadow-2xl hover:font-bold"
+            >
+              See all journeys
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- form -->
+
+    <div class="container mx-auto p-6 py-16 md:p-12" id="contact">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Form Section -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
+          <form action="#" method="POST">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 text-sm font-medium"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-4 py-2 mt-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 text-sm font-medium"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-2 mt-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="message"
+                class="block text-gray-700 text-sm font-medium"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="w-full px-4 py-2 mt-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full py-2 px-4 bg-[#CCF32F] text-black font-semibold rounded-lg hover:bg-[#c5e156] focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26903.528129179285!2d38.737395274709336!3d9.005227582193175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1721847115974!5m2!1sen!2set"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="w-full h-full"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="bg-[#112F38] text-white">
+      <div class="container max-w-[1250px] mx-auto pt-[5rem] pb-8 px-6">
+        <div class="flex justify-between">
+          <img src="data:image/png;base64,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" alt="" />
+          <nav class="hidden md:flex gap-8 font-secondary">
+            <ul class="flex items-center gap-[4rem] font-main text-[20px]">
+              <li><a href="" class="hover:text-[#CCF32F]">Places</a></li>
+              <li><a href="" class="hover:text-[#CCF32F]">About</a></li>
+              <li><a href="" class="hover:text-[#CCF32F]">Blog</a></li>
+              <li><a href="" class="hover:text-[#CCF32F]">Contact</a></li>
+            </ul>
+          
+          </nav>
+        </div>
+        <div class="py-12">
+          <div class="h-[2px] bg-slate-500"></div>
+        </div>
+        <div class="flex justify-between py-6">
+          <p>@copyright</p>
+
+          <p id="year"> </p>
+          <div class="flex gap-6">
+            <i
+              class="fa-brands fa-facebook text-[20px] duration-300 hover:scale-110"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-[20px] duration-300 hover:scale-110"
+            ></i>
+            <i
+              class="fa-brands fa-x-twitter text-[20px] duration-300 hover:scale-110"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
