@@ -2,7 +2,7 @@
 
 ## Description
 
-This project features a web application that incorporates smooth scrolling and animations using GSAP and Lenis. It includes responsive elements with scroll-based animations and a mobile menu toggle.
+This project features a web Landing page that incorporates smooth scrolling and animations using GSAP and Lenis. It includes responsive elements with scroll-based animations and a mobile menu toggle.
 
 ## Features
 
