@@ -85,4 +85,5 @@ label {
   justify-content: center;
   align-items: center;
   z-index: 50;
+  transition: all 1s;
 }
